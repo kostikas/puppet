@@ -1,0 +1,6 @@
+# Managed by puppet
+
+[<%= $repo.upcase %>]
+name=<%= $repo.upcase %>
+baseurl=http://repo_server/repo/<%= $repo %>
+enabled=1
